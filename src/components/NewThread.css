@@ -1,0 +1,164 @@
+.new-thread-div{
+    display: inline-block;
+    align-items: center;
+    width: 704px;
+    height: 90px;
+    margin: auto;
+    border-bottom-right-radius: .375rem;
+    border-bottom-left-radius: .375rem;
+    border-top-left-radius: .375rem;
+    border-top-right-radius: .375rem;
+    border: 1px solid rgb(215 215 206);
+    --tw-bg-opacity: 1;
+    background-color: rgb(252 252 249/var(--tw-bg-opacity));
+    padding: 16px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    --tw-text-opacity: 1;
+    color: rgb(19 52 59/var(--tw-text-opacity));
+    --tw-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+    --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+.new-thread-div button:hover{
+    border-radius: 9999px;
+    background-color: #e8e8e3;
+}
+.new-thread-div textarea{
+    
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    line-height: inherit;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    display: flex;
+    max-height: 50vh;
+    width: 100%;
+    border: 0px;
+    resize: none;
+    align-items: center;
+    overflow: auto;
+    --tw-bg-opacity: 1;
+    background-color: rgb(252 252 249/var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(19 52 59/var(--tw-text-opacity));
+    caret-color: #1fb8cd;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    
+    height: 48px !important;
+}
+
+.nt-ts{
+    display: inline-block;
+}
+.nt-focus{
+    /* left:8px */
+    float: left;
+}
+.nt-file{
+    /* left:80px */
+    float: left;
+}
+.nt-focus,.nt-file{
+    /* position: absolute; */
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+    text-transform: none;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+    text-align: center;
+    font-size: .875rem;
+    font-weight: 500;
+    --tw-text-opacity: 1;
+    color: rgb(100 100 95/var(--tw-text-opacity));
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+    display: inline-block;
+    justify-content: center;
+    gap: 4px;
+    line-height: 1;
+    max-width: 120px;
+    background-color: transparent;
+    margin-top: 10px;
+}
+
+.nt-ts{
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+    cursor: pointer;
+    background-color: transparent;
+    background-image: none;
+    /* position: relative; */
+    display: inline-flex;
+    height: 2rem;
+    transform-origin: center;
+    user-select: none;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    border-radius: 9999px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    --tw-text-opacity: 1;
+    color: rgb(100 100 95/var(--tw-text-opacity));
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    outline-color: transparent;
+    /* position: absolute;
+    right: 40px; */
+    float: right;
+    
+}
+
+.copilot{
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.nt-enter{
+    /* right: 8px;
+    position:absolute; */
+    float: right;
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+    cursor: pointer;
+    background-image: none;
+    display: inline-flex;
+    aspect-ratio: 1/1;
+    height: 2rem;
+    transform-origin: center;
+    user-select: none;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    border-radius: 9999px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(232 232 227/var(--tw-bg-opacity));
+    text-align: center;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    --tw-text-opacity: 1;
+    color: rgb(19 52 59/var(--tw-text-opacity));
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    outline-color: transparent;
+    border: 0px;
+}
